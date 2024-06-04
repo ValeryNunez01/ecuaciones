@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./diseno.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container_all">
+    <h1>Calculadora de ecaciones diferenciales</h1>
+    <h2>Homogéneas</h2>
+    <form name="operaciones">
+      <div class="container_text_box">
+      <div class="ecuacion">
+        <input id="ec" name="res" type="text">
+        <input value="1" class="entradas" id="e1" name="e1" type="text"><span>y'' +</span>
+        <input value="1" class="entradas" id ="e2" name="e2" type="text"><span>y' +</span>
+        <input value="1" class="entradas" id = "e3" name="e3" type="text"><span>y = 0</span>
+      </div>
+      <div class="botones">
+        <a class="boton" href="#informacion" >Librería</a>
+        <button class="boton" type="button" onclick="obtenerDatos()">Enviar</button>
+      </div>
+      </div>
+
+      <div id="informacion" class="container_info container_text_box">
+        <div class="ecuacion final">
+          <h3>Ecuación característica</h3>
+          <p>Ecuación característica de la ecuación diferencial homogénea de coeficientes constantes dada por el usuario.</p>
+          <input class="info" id="eg" type="text">
+        </div>
+        <div class="ecuacion final">
+          <h3>Raices</h3>
+          <p>Soluciones de la ecuación característica de segundo grado obtenida de la ecuación diferencial dada.</p>
+          <input class="info" id="r" type="text">
+        </div>
+        <div class="ecuacion final">  
+          <h3>Soluciones (y1 y2)</h3>
+          <p>Soluciones Y1 y Y2 obtenidas a partir de las raices calculadas con anterioridad, las cuales se comparan entre si mediante casos (caso uno: soluciones reales / caso dos: soluciones complejas) con el fin de establecer la forma de la solución.</p>
+          <input class="info" id="s" type="text">
+        </div>
+        <div class="ecuacion final">
+          <h3>Solución general</h3>
+          <p>La solución general se obtine de la combinación lineal de las soluciones Y1 y Y2.</p>
+          <input class="info" id="sg" type="text">
+        </div>
+      </div>
+
+    </form>
+
+
+  </div>
+
+  <script src="ecDifHomo.js" ></script>
+
+</body>
+</body>
+</html>

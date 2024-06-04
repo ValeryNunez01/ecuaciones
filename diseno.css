@@ -1,0 +1,160 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Albert Sans", sans-serif;
+}
+
+.container_all{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Albert Sans", sans-serif;    
+}
+
+h1{
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    height: auto;
+    background-color: rgb(216, 255, 215);
+    margin: 3% auto;
+    font-size: 37px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 2%;
+}
+
+h2{
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.container_text_box{
+    background-color: rgb(238, 252, 167);
+    margin: 40px auto;
+    width: 80%;
+    height: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.506);
+    border-radius: 30px;
+}
+
+.botones{
+    margin: 0% 10%;
+    margin-top: 40px;
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.ecuacion{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    text-align: center;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.506);
+}
+
+.boton{
+    background-color: rgb(255, 212, 245);
+    color: rgb(58, 0, 59);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 0px 8%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.506);
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container_text_box{
+    padding:40px 0px;
+}
+
+p{
+    text-align: left;
+    margin: 4% 10%;
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+#ec{
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;}
+
+.entradas{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+span{
+    font-size: 25px;
+    padding-left: 9px;
+    padding-right: 5px;
+}
+
+.info{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 50px;
+    color: rgb(39, 39, 39);
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
+}
+
+
+
+.info{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(212, 242, 252);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 30px;
+}
+
+.final{
+    margin-top: 25px;
+    border-color: rgb(252, 158, 158);
+    border-width: 20px 0px 0px 0px;
+    border-left-color: blue;
+    border-radius: 5px;
+}
